@@ -1,0 +1,94 @@
+/*ADICIONAR ESTILIZAÇÃO DO CABEÇALHO*/
+
+header {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    padding: 16px;
+    justify-content: center;
+}
+
+/*ADICIONANDO A DESCRIÇÃO CORRETA DA FUNÇÃO FLEXBOX NO CSS*/
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.lista{
+    padding: 20px;
+    margin-right: 10px;
+    background-color: rgb(176, 176, 238);
+    border: 1px solid #ccc;
+    color:black;
+    text-align: center;
+}
+
+/*ADICIONAR PSEUDOCLASSE*/
+
+header li:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/*ADICIONAR ESTILIZAÇÃO DA TAG SECTION*/
+
+.paragrafo-1{
+    margin-left: 50px;
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+/*ADICIONAR ESTILIZAÇÃO AO CORPO DE TEXTO (BODY)*/
+body {
+    background-color: rgb(176, 176, 238);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 20px;
+    padding: 50px;
+    align-items: center;
+}
+
+/*ATENÇÃO NO MOMENTO DE COLOCAR O VALOR DO TAMANHO DAS IMAGENS, POIS O VALOR ABAIXO PODE SER DIFERENTE
+NO MOMENTO DE ESCREVER NO SEU SITE. SE NECESSÁRIO ADOTE OUTROS VALORES*/
+
+.imagem-1{
+    width: 20%;
+    margin-left: 80px;
+}
+
+.imagem-2{
+    width: 20%;
+    margin-left: 180px;
+}
+
+.imagem-3{
+    width: 20%;
+    margin-left: 180px;
+}
+
+.paragrafo-2{
+    display: inline-block;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 100px;
+}
+
+/*ADICIONAR ESTILIZAÇÃO A TAG DE RODAPÉ (FOOTER)*/
+
+footer {
+    background-color:black;
+    color: white;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
